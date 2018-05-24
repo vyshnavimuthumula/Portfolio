@@ -6,7 +6,7 @@ This is my second project for udacity Full stack web developer.
  3)BOOTSTRAP                                                  
  #### HTML
   I used div,h1,h2,a and footer tags.                          
-##### CSS                                                        
+ #### CSS                                                        
    Here are just a few things you can do with CSS:
    Choose colors of everything on the page like the background, font, or main menu.
    Set the size of any element such as font size, width of the entire site, or an image
