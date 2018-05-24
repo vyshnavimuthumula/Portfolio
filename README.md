@@ -1,9 +1,9 @@
 # Portfolio
 This is my second project for udacity Full stack web developer.
 ### Technologies used:
- 1)HTML
- 2)CSS
- 3)BOOTSTRAP
+ 1)HTML                         
+ 2)CSS                          
+ 3)BOOTSTRAP                                                  
  #### HTML
   I used div,h1,h2,a and footer tags.
 Here are just a few things you can do with CSS:
@@ -11,6 +11,7 @@ Choose colors of everything on the page like the background, font, or main menu.
 Set the size of any element such as font size, width of the entire site, or an image
 Create borders or drop shadows around whole sites, images, and menus
 Change the state of items when hovering over them.
+###### After all of your HTML is written, you can begin styling your pages using the style.css file you created
 Be sure to validate your html.
 Consult the specs below these instructions for advice on styling your CSS files.
 ### Instructions
