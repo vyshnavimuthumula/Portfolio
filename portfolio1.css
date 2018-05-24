@@ -1,5 +1,5 @@
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     color: blue;
     padding: 6px 10px;
     text-align: center;
@@ -8,15 +8,13 @@
     cursor: pointer;
     margin-top:3%;
     margin-right:1.5%;
-    text-decoration: NONE;
 }
 .top{
-   float: right;
-   align-content: 100%; 
-   color:blue;
-   background-color:palevioletred;
-   border-radius: 20%;
-   cursor: pointer;
+    float: right;
+    color:blue;
+    background-color:palevioletred;
+    border-radius: 20%;
+    cursor: pointer;
 }
 .top:hover {
     background-color: dodgerblue;
@@ -26,59 +24,57 @@
 .media{
     background-color: yellowgreen;
 }
-.img{
-    
-    width: 80%;
-    float: top-right;
-     
-}
-.logo{
-    width:50px; 
-}
-.g1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 20px;
-  
-}
-* box-sizing: border-box;
 
 .g1 {
-  border: 2px lightseagreen;
-  border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+.g1 {
+    border: 2px lightseagreen;
+    border-radius: 5px;
 }
 
 .g1 > div {
-  border: 2px lightseagreen;
-  border-radius: 5px;
-  background-color: lightseagreen;
-  padding: 10px;
-  color:pink;
+    border: 2px lightseagreen;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    padding: 10px;
+    color:aqua;
 }
 
 .nested {
-  border: 2px #f1f1f1;
-  border-radius: 5px;
-  background-color: #f1f1f1;
-  padding: 1em;
-}
-body{
-  margin:0;
-}
-.img1{
-    width: 80%;
-    height:400px;
-}
-.img2{
-    width: 80%;
-    height:400px;
+    border: 2px #f1f1f1;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    padding: 1em;
 }
 
-@media screen and (250px :6280px) {
-  .media {
-    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-  .top{
-    width: 100px;  
-  }
+* {box-sizing: border-box;}
+
+h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align:center;
+    color:pink;
+}
+.middle{
+     width: 100%;   
+}
+p{
+    text-align: center;
+}
+.img1{
+    width: 100%;
+}
+.img2{
+    width: 100%;
+}
+.img3{
+    width: 100%;
+}
+footer{
+   text-align: center;
 }
