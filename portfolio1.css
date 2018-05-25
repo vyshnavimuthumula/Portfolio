@@ -1,59 +1,86 @@
-.media{
-    background-color: yellowgreen;
-}
 
-.g1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 1em;
+body {
+    background-color: silver;
+    padding: 20px;
+    font-family: Arial;
 }
-.g1 > div {
-  border: 2px lightseagreen;
-  border-radius: 5px;
-  background-color: lightseagreen;
-  padding: 10px;
-  color:aqua;
+.logo {
+    width: 30%;
 }
-
-.nested {
-  border: 2px #f1f1f1;
-  border-radius: 5px;
-  background-color: #f1f1f1;
-  padding: 1em;
+.m {
+    max-width: 100%;
 }
-
-* {box-sizing: border-box;}
-
-.main h1{
-    font-family: sans serif;
-    font-size: 30px;
-    text-align:center;
-    color:peru;
+.main {
+    max-width: 1000px;
+    margin: auto;
+ }
+p {
+    text-align: center;
 }
-.middle{
-   width: 100%;
-   
+h1 {
+    font-size: 50px;
 }
-.main h2{
+.main h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     float: right;
     font-size: 1cm;
     margin-top: 0.8cm;
     color: crimson;
 }
-p{
-  text-align: center;
+.main h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align:center;
+    color:peru;
 }
-.img1{
-    width: 100%;
+.row {
+    margin: 8px -16px;
 }
-.img2{
-    width: 100%;
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
 }
-.img3{
-    width: 100%;
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.3%;
+    height: 10%;
 }
-footer{
-   text-align: center;
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color:pink;
+    padding: 10px;
+}
+.img {
+    height: 200%;
+    max-width: 100%;
+    
+}
+footer {
+     text-align: center;
+    }
+
+/* Responsive layout - makes a three column-layout instead of two columns */
+@media screen and (max-width: 800px) {
+    .column {
+        width: 50%
+    }
+}
+
+/* Responsive layout - makes the two columns stack  */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
